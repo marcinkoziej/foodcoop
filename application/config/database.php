@@ -57,6 +57,22 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+$db['postgre']['hostname'] = 'localhost';
+$db['postgre']['username'] = 'foodcoop';
+$db['postgre']['password'] = 'cooprules';
+$db['postgre']['database'] = 'foodcoop';
+$db['postgre']['dbdriver'] = 'postgre';
+$db['postgre']['dbprefix'] = '';
+$db['postgre']['pconnect'] = TRUE;
+$db['postgre']['db_debug'] = TRUE;
+$db['postgre']['cache_on'] = FALSE;
+$db['postgre']['cachedir'] = '';
+$db['postgre']['char_set'] = 'utf8';
+$db['postgre']['dbcollat'] = 'utf8_general_ci';
+$db['postgre']['swap_pre'] = '';
+$db['postgre']['autoinit'] = TRUE;
+$db['postgre']['stricton'] = FALSE;
+
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
